@@ -22,7 +22,7 @@ baColumn = 'Should BA be included?'
 FILE_NAME = 'Boss of the Week Bosses (Responses).xlsx'
 data = pd.read_excel(FILE_NAME, header=0)
 totalResponses = len(data)
-passingPercentage = 0.50
+passingPercentage = 0.70
 
 #get all bosses above the passingPercentage and add to the passingBosses List
 def findPassingBosses():
